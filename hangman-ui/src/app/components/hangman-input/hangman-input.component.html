@@ -1,0 +1,26 @@
+<div class="keyboard-input">
+    <div class="filled button-row">
+        <div class="button-column" style="width:8px"></div>
+        <div class="button-column" *ngFor="let letter of FirstRow">
+            <app-keyboard-button [Letter]=letter></app-keyboard-button>
+        </div>
+    </div>
+    <div class="filled button-row">
+        <div class="button-column" style="width:24px"></div>
+        <div class="button-column" *ngFor="let letter of SecondRow">
+            <app-keyboard-button [Letter]=letter></app-keyboard-button>
+        </div>
+    </div>
+    <div class="filled button-row">
+        <div class="button-column" style="width:40px"></div>
+        <div class="button-column" *ngFor="let letter of ThirdRow">
+            <app-keyboard-button [Letter]=letter></app-keyboard-button>
+        </div>
+    </div>
+    <div class="filled button-row">
+        <div class="button-column" style="width:56px"></div>
+        <div class="button-column" *ngFor="let letter of FourthRow">
+            <app-keyboard-button [Letter]=letter></app-keyboard-button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,123 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: ghostwhite }
+
+/* Welcome */
+
+.start-button {
+    display: block !important;
+    margin: auto !important;
+    height: 96px;
+    width: 192px;
+}
+
+app-welcome {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Guesses */
+
+app-guesses {
+    width:fit-content;
+    position: fixed;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.guesses-box{
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+    border-radius: 4px;
+    padding: 12px;
+    background-color: white;
+}
+
+.guesses-label {
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.guesses-value {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Output */
+
+app-hangman-output{
+    text-align:center;
+    margin:auto;
+    width:100%;
+    position: fixed;
+}
+
+.output-text {
+    letter-spacing: 8px;
+    font-size: 64px;
+    margin: 32px;
+}
+
+/* Input */
+
+.button-row {
+    display:table-row-group;
+}
+
+.button-column {
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.keyboard-button {
+    height:64px;
+}
+
+app-keyboard-button {
+    width: 100%;
+    height: 100%;
+}
+
+.keyboard-input {
+    width:fit-content;
+    margin:auto;
+    padding-top: 200px;
+}
+
+/* Common */
+
+.filled {
+    width:100%;
+    height:100%;
+}
+
+.centered {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.bottom {
+    position: absolute;
+    bottom: 64px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
