@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\status-page-api\HangmanAPI.csproj" />
+    <ProjectReference Include="..\HangmanAPI\HangmanAPI.csproj" />
   </ItemGroup>
 
 </Project>
