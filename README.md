@@ -8,3 +8,6 @@ Alternatively you can get the necessary dependencies for .NET Core and Angular 8
 1. Run launch.bat
 2. Navigate to localhost:8888
 3. Play
+
+# Tests
+Run `dotnet test` within hangman-api
