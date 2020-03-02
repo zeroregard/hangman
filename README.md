@@ -1,4 +1,5 @@
 Hangman in Angular and .NET Core
+![Playing Hangman](https://github.com/zeroregard/hangman/raw/master/game.png)
 
 # Prerequisites
 You must have Docker installed. 
